@@ -1,0 +1,52 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+/*CSS Varible*/
+:root {
+    --primary-font: "Lora", serif;
+    --secondary-font: "Lato", serif;
+    --primary-color: #516c72; /*petrol*/
+    --secondary-color: #42352c; /*dark brown*/
+    --highlight-color: #a3acb9; /*ljus blågrå*/
+    --light-highlight-color: #9d8b86; /*light greish*/
+}
+/*Global styles*/
+body {
+    margin: 0;
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+}
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: var(--secondary-color);
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px var(--primary-color);
+    display: none;
+    top: 100%;
+    text-align: end;
+}
+/*Main content*/
+ .coffeemug {
+    height: 800px;
+    width: 100%;
+    background: url("../images/52867.jpg");
+    background-size: cover; /* Makes the background cover the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    position: relative;
+}
+/*Buttoms*/
+.custom-button-filled {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--secondary-color);
+    color: white;}
+
