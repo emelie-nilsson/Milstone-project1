@@ -82,7 +82,8 @@ nav {
 }
 
 #benefits-relax>div,
-#benefits-social>div {
+#benefits-social>div,
+#benefits-community>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -92,7 +93,7 @@ nav {
 }
 
 #benefits hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid var(--primary-color);
     margin: 5px 0;
 }
 
@@ -117,17 +118,20 @@ nav {
 
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
     /*Reason section*/
     #benefits-relax,
-    #benefits-social {
+    #benefits-social,
+    #benefits-community {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
+    
 
     #benefits-relax > div,
-    #benefits-social > div {
+    #benefits-social > div,
+    #benefits-community > div {
         width: 75%;
     }
 
@@ -135,6 +139,10 @@ nav {
         text-align: end;
         align-items: flex-end;
     }
+    #benefit-community {
+        text-align: center;
+        align-content: flex-end;
+}
 }
 
 /*Media query: XL devices 1200px and up*/
@@ -164,4 +172,6 @@ nav {
     #benefits-relax > div {
         align-self: flex-end;
     }
+    
+
 }
