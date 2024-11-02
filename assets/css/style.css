@@ -26,7 +26,7 @@ nav {
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px var(--primary-color);
-    display: none;
+    display: flex;
     top: 100%;
     text-align: end;
 }
@@ -54,9 +54,9 @@ nav {
     color: white;}
 
  .custom-button-outline {
-    border: 3px solid var(--secondary-color);
+    border: 3px solid white;
     padding: 7px 25px;
-    color: var(--secondary-color)
+    color: white;
  }
     
     .custom-button-outline:hover {
@@ -128,8 +128,12 @@ nav {
     /* Creates a grid of meetup time divs over the background image */
     border: 2px solid white;
 }
-#meetuptimes {
-    align-items: center;
+
+#meetuptimes h2 {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
 }
 
 
@@ -143,7 +147,7 @@ nav {
 }
 
 /*Join us page*/
-#joinus-form {
+#joinus {
     background-image: url("../images/46564.jpg");
     background-size: cover;
     background-position: 75%;
@@ -151,8 +155,8 @@ nav {
     flex-grow: 1;
 }
 #joinus-form {
-    color: var(--secondary-color);
-    background-color: rgba(60, 60, 60, 0.6);
+    color: white;
+    background-color: rgba(66, 53, 44, 0.6);
     padding: 30px;
 }
 #joinus-form > h2 {
@@ -207,7 +211,7 @@ nav {
         text-align: end;
         align-items: flex-end;
     }
-    #benefit-community {
+    #benefits-community {
         text-align: center;
         align-content: flex-end;
 }
