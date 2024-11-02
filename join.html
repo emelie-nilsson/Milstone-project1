@@ -18,6 +18,7 @@
 </head>
 
 <!-- Header -->
+
 <body class="d-flex flex-column min-vh-100">
   <!--Navigation-->
   <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
@@ -38,7 +39,7 @@
             <a class="nav-link" href="#">Meetup Times</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
           </li>
           <li class="nav-item">
             <a href="join.html" class="btn custom-button-filled ms-lg-3">Join Us</a>
@@ -47,31 +48,59 @@
       </div>
     </div>
   </nav>
-
-
-  </header>
   <!--Main content-->
- <main>
-  <section id="gallery">
-    <div id="photos">
-    <img src="assets/images/2148022267.jpg" alt="woman holdning an mug with hot chocolate">
-    <img src="assets/images/2149256937.jpg" alt="a group sitting around a table in a Café">
-    <img src="assets/images/2149373720.jpg" alt="a woman holding yarn infront of her face">
-    <img src="assets/images/2149373656.jpg" alt="a man and a woman doing crochet">
-    <img src="assets/images/2148350126.jpg" alt="an woman holdning knitted gloves infront of her face">
-    <img src="assets/images/2149401796.jpg" alt="A man doing crochet">
-    <img src="assets/images/2148395440.jpg" alt="A group around a table">
-    <img src="assets/images/2149373716.jpg" alt="A woman doing crochet">
-    <img src="assets/images/2151091235.jpg" alt="A crochet giraffe and a bunny">
-    <img src="assets/images/11914.jpg" alt="A group sitting by a table">
-    <img src="assets/images/close-up-kitted-bag-still-life.jpg" alt="Crochet handbag">
-    <img src="assets/images/2148242077.jpg" alt="A pair of hands crocheting over a table with crochet needles, knitting stitches and yarn">
-</div>
-</section>
- </main>
+
+  <!-- header section -->
+  <header id="header" class="container section">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 text-center text-xl-start">
+        <h1 class="display-3">Coffee & Crochet</h1>
+        <p class="my-4">
+          Are you interested in joining our Coffee & Crochet Community?<br>
+          We are happy to have you!<br>
+          Please fill in the form below, and we'll get in contact with you with further information.
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <!--Join us form-->
+  <main>
+    <section id="joinus-form" class="container section">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
+          <h2>Join Us</h2>
+          <form action="success.html" method="GET">
+            <div class="row">
+              <div class="col-6 mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input class="form-control" id="name" name="name" type="text" required>
+              </div>
+              <div class="row">
+              <div class="col-6 mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input class="form-control" id="email" name="email" type="email" required>
+              </div>
+            </div>
+              <div class="col-6 mb-3">
+                <label for="phone" class="form-label">Phone number</label>
+                <input class="form-control" id="phone" name="phone" type="number" required>
+              </div>
+              <div class="row">
+                <div class="col-3 mb-3">
+              <button type="submit" class="btn custom-button-outline">Submit</button>
+            </div>
+          </div>
+        </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
 
   <!--Footer-->
-  <footer class="mt-auto">
+  <footer class="footer mt-auto">
     <ul id="social-networks">
       <li>
         <a href="https://www.facebook.com/" target="_blank" rel="noopener"

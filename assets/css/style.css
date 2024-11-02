@@ -53,6 +53,17 @@ nav {
     background-color: var(--secondary-color);
     color: white;}
 
+ .custom-button-outline {
+    border: 3px solid var(--secondary-color);
+    padding: 7px 25px;
+    color: var(--secondary-color)
+ }
+    
+    .custom-button-outline:hover {
+     background-color: var(--highlight-color);
+     color: white
+}
+
 /*Reason section*/
 #circle-cover-bg {
     background: url("../images/2149299512.jpg") no-repeat top center / cover;
@@ -130,7 +141,6 @@ nav {
 #photos {
     line-height: 0;
 }
-
 
 /*Footer*/
 #social-networks {
