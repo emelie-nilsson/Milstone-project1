@@ -1,131 +1,108 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Coffee & Crochet Website  
 
-Welcome Emelie Nilsson,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive images of website](assets/images/responsive.png)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+## Table of content
+* Introduction
+* User experience
+* Design
+* Features
+* Testing
+* Deployment steps
+* Credits
 
-## Gitpod Reminders
+## Introduction
+The Coffee & Crochet website is targeted toward people who live in Springfield, who like to socialise with others in the area. The aim is to have people come to meetups at local cafés, to drink coffee and do crochet. Another aim with the website is to encourage people to crochet, by highlighting benefits with needlework. The website is aimed at all individuals located in the area, regardless of age, gender and previous experience with crocheting.
+## User experience
+### User story
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* Goals for a first time visiter
+  * I want to know what happens at the meetups.
+  * I want to know when and where the meetups take place.
+  * I want to know why I should join this community.
+  * I want to know if I need to be a professional crocheter to join.
+  * I want to easily navigate on the website.
 
-`python3 -m http.server`
+* Goals for a returning visiter 
+  * I want to easily check what time the meetup is scheduled a specific day.
+  * I want to see images from previous meetups.
 
-A blue button should appear to click: _Make Public_,
+* Goals for a frequent visiter  
+  * I want a quick overview to make sure that any changes hasn´t been made.
 
-Another blue button should appear to click: _Open Browser_.
+* The website owners goals
+  * I want to build a community for the people in the area who crochet.
+  * I want to encourage people to crochet.
+  * I want to support the local Cafés. 
+  * I want to spred knowledge about crocheting
+  * I want to make use of patterns and yarn that isnt being used 
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+## Design
+The design of the website is divided into three separated pages for easy navigation. The first page includes all the important information such as an introduction, why crocheting is good for your health and the location and time for the meetups. 
 
-A blue button should appear to click: _Make Public_,
+The second page is a gallery with pictures from previous meetups. This page is meant to inspire and attract visitor to join the community. 
 
-Another blue button should appear to click: _Open Browser_.
+The third page contains a form where the visitor can sign up to join the community.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+All pages has an navigationbar with links to the different sections. On the bottom on each page there is also links to social media pages.
 
-To log into the Heroku toolbelt CLI:
+### Wireframes
+(ASK SPENCER HOW TO GET THEM IN HERE)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Fonts and colour theme
+ The font that was choosen was Lora, and Serif as a backup.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+![First image](assets/images/52867.jpg)
+ The image on top of the first page was selected first. By using [Colorpicker](https://imagecolorpicker.com/en) a colour palette was set.
+ ![Colour palette](assets/images/colourspalette.png)
+ From the colour palette, four colours was choosen as a colour theme.
 
-### Connecting your Mongo database
+ 1. Petrol #516c72
+ 2. Dark brwon #42352c
+ 3. Light blue-grey #a3acb9
+ 4. Light greyish #9d8b86
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+ ### Images
+ All images are downloaded from [Freepik](https://www.freepik.com/). They were all selected to match the content of the website aswell as the colour theme. All images are downsized to fit the purpose of the website.
+ The logo is created by [ChatGPT](https://chatgpt.com/).  
+ ![C&CLogo](assets/images/c&clogo.jpg)
 
-------
+ ### Text
+ The five reasons to do crochet, is also created by [ChatGPT](https://chatgpt.com/). The rest of the text is written by the author.
 
-## Release History
+ ## Features
+ ### Navigation bar
+ ![Navigationbar](assets/images/navigationbar.png)
+ The navigation bar is located along the top of the page, on every page. In the navigation bar you can find links to the sections Home, Meetup Times, Gallery and the Join Us form. On the left hand side there is an Coffee & Crochet logo, that takes the visitors back to the top of the first page.
+ 
+On devices with a width of 768px or less, the menu is exchange to a hamburger dropdown menu.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Footer
+In the footer there are social media icons. By clicking on the icons the visitor is being linked to Coffee & Crochet's Facebook, Twitter, Youtube or Instagram. The links opens in a new tab.
 
-**June 18, 2024,** Add Mongo back into template
+### Form
+By clicking on the button Join Us, in the navigation bar the visitors get to a form. To submit the form, Name, Email and Phone needs to be filled in. A conformation pages appears when the form has successfully been submitted. This pages contains a button that takes the visitor back to the homepage when being clicked.
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+## Testing
+### Validation
+* [HTML Validator](https://validator.w3.org/) has been used frequently throughout the project. Syntax errors has been identified and resolved. Before submission, no errors were found.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) has also frequently been used. Every identified error was corrected before submission.
+![Validator](assets/images/validation.png)
+### Responsiveness
+The website has been tested on several devices, mobiles, tablets and laptops. It responds as expected on all tested screen sizes. The same goes for different browsers such as Chrome, Microsoft Edge and Safari. 
 
-**May 28 2024:** Fix Mongo and Links installs
+### Manual testing
+Manual testing has been done to both internal and external links. The internal links takes the visitor to the wanted section. The external links opens up a new tag with the wanted website.
 
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Deployment
+1. Go to the **Settings** tab of your GitHub repo.
+2. On the left-hand sidebar, in the Code and automation section, select **Pages**.
+3. Make sure:
+   * Source is set to 'Deploy from Branch'.
+   * Main branch is selected.
+   * Folder is set to / (root).
+4. Under Branch, click **Save**.
+5. Go back to the Code tab. Wait a few minutes for the build to finish and refresh your repo.
+6. On the right-hand side, in the Environments section, click on **'github-pages'**.
+7. Click **View deployment** to see the live site.
