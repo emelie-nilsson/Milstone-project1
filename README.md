@@ -48,7 +48,16 @@ The third page contains a form where the visitor can sign up to join the communi
 All pages has an navigationbar with links to the different sections. On the bottom on each page there is also links to social media pages.
 
 ### Wireframes
-(ASK SPENCER HOW TO GET THEM IN HERE)
+The layout of the website was first drawn on a piece of paper. A wireframe of each page was then created in 
+[Balsamiq](https://balsamiq.com/).
+#### ***Home page***
+![Homepage](assets/images/WireframeHome.png)
+#### ***Gallery page***
+![Gallery](assets/images/WireframeGallery.png)
+#### ***Join us page***
+![Join Us](assets/images/WireframeJoinus.png)
+#### ***Success page***
+![Success](assets/images/WireframeSuccess.png)
 
 ### Fonts and colour theme
  The font that was choosen was Lora, and Serif as a backup.
@@ -67,6 +76,8 @@ All pages has an navigationbar with links to the different sections. On the bott
  All images are downloaded from [Freepik](https://www.freepik.com/). They were all selected to match the content of the website aswell as the colour theme. All images are downsized to fit the purpose of the website.
  The logo is created by [ChatGPT](https://chatgpt.com/).  
  ![C&CLogo](assets/images/c&clogo.jpg)
+
+ A [Favicon](https://favicon.io/) was created based on the letters C and C with the colour theme in mind. 
 
  ### Text
  The five reasons to do crochet, is also created by [ChatGPT](https://chatgpt.com/). The rest of the text is written by the author.
@@ -87,8 +98,14 @@ By clicking on the button Join Us, in the navigation bar the visitors get to a f
 ## Testing
 ### Validation
 * [HTML Validator](https://validator.w3.org/) has been used frequently throughout the project. Syntax errors has been identified and resolved. Before submission, no errors were found.
+![HTML Validator](assets/images/screenshot_2024-11-07_at_19.04.26.png)
+![HTML Validator](assets/images/screenshot_2024-11-07_at_19.04.56.png)
+![HTML Validator](assets/images/screenshot_2024-11-07_at_19.05.27.png)
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) has also frequently been used. Every identified error was corrected before submission.
-![Validator](assets/images/validation.png)
+![Validator](assets/images/screenshot_2024-11-07_at_19.06.04.png)
+* Lighthouse testing show good results for speed, accessibility, and SEO.
+![Lighthouse results](assets/images/screenshot_2024-11-07_at_19.11.35.png)
+ 
 ### Responsiveness
 The website has been tested on several devices, mobiles, tablets and laptops. It responds as expected on all tested screen sizes. The same goes for different browsers such as Chrome, Microsoft Edge and Safari. 
 
@@ -106,3 +123,17 @@ Manual testing has been done to both internal and external links. The internal l
 5. Go back to the Code tab. Wait a few minutes for the build to finish and refresh your repo.
 6. On the right-hand side, in the Environments section, click on **'github-pages'**.
 7. Click **View deployment** to see the live site.
+
+## Credits
+### Code
+All code is taken from Code Institute LMS (Learning Mangement System) and modified to fit the website.
+### Content
+The font family is from [Google Fonts](https://fonts.google.com/)
+The icons in the footer and in the benefits section, were taken from [Font Awesome](https://fontawesome.com/).
+### Media
+The images of the project on different devices are created on a website called [Are you responsive?](https://ui.dev/amiresponsive)
+The logo is made by [ChatGPT](https://chatgpt.com/) and the favicon by [Favicon](https://favicon.io/).
+
+The rest of the images are all downloaded from [Freepik](https://www.freepik.com/).
+### Acknowledgements
+A special thank you to my mentor for his advice, guidance and support. I also want to thank my brother for his patience and his feedback.
