@@ -98,8 +98,7 @@ nav {
 }
 
 #benefits-relax>div,
-#benefits-social>div,
-#benefits-community>div {
+#benefits-social>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -111,6 +110,11 @@ nav {
 #benefits hr {
     border-top: 1px solid var(--primary-color);
     margin: 5px 0;
+}
+#benefits-community>div {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
 }
 
 /*Meetup Times section*/
@@ -217,7 +221,7 @@ nav {
     }
     #benefits-community {
         text-align: center;
-        align-content: flex-end;
+        justify-content: center;
 }
 }
 /* Large devices (laptops and desktops, 992px and up) */
