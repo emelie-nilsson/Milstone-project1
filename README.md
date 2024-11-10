@@ -36,10 +36,10 @@ The Coffee & Crochet website is targeted at individuals living in Springfield wh
   * I want to encourage people to crochet.
   * I want to support the local Cafés. 
   * I want to spread knowledge about crocheting.
-  * I want to make use of patterns and yarn that aren't being used 
+  * I want to make use of patterns and yarn that aren't being used. 
 
 ## Design
-The design of the website is divided into three separate pages for easy navigation. The first page includes all the important information , such as an introduction, why crocheting is good for your health , and the location and time for the meetups. The second page is a gallery with pictures from previous meetups. This page is meant to inspire and attract visitors to join the community. The third page contains a form where visitors can sign up to join the community. All pages have a navigation bar with links to the different sections. At the bottom of each page , there are also links to social media pages.
+The design of the website is divided into three separate pages for easy navigation. The first page includes all the important information, such as an introduction, why crocheting is good for your health, and the location and time for the meetups. The second page is a gallery with pictures from previous meetups. This page is meant to inspire and attract visitors to join the community. The third page contains a form where visitors can sign up to join the community. All pages have a navigation bar with links to the different sections. At the bottom of each page, there are also links to social media pages.
 
 ### Wireframes
 The layout of the website was initially sketched on a piece of paper. A wireframe of each page was then created in
@@ -54,20 +54,25 @@ The layout of the website was initially sketched on a piece of paper. A wirefram
 ![Success](assets/images/WireframeSuccess.png)
 
 ### Fonts and colour theme
- The font that was chosen was Lora, with Serif as a backup.
+The font that was chosen was Lora, with Serif as a backup.
 
 ![First image](assets/images/52867.jpg)
- The image on top of the home page was selected first. By using [Colorpicker](https://imagecolorpicker.com/en) a colour palette was set.
+
+The image on top of the home page was selected first. By using [Colorpicker](https://imagecolorpicker.com/en) a color palette was created based on the colors in the image.
+ 
  ![Colour palette](assets/images/colourspalette.png)
- From the colour palette, four colours was choosen as a colour theme.
+ 
+ From the color palette, four colors was choosen as a color theme.
 
  1. Petrol #516c72
- 2. Dark brwon #42352c
+ 2. Dark brown #42352c
  3. Light blue-grey #a3acb9
  4. Light greyish #9d8b86
 
  ### Images
  All images are downloaded from [Freepik](https://www.freepik.com/). They were all selected to match the content of the website as well as the color theme. All images are downsized to fit the purpose of the website.
+
+
  The logo is created by [ChatGPT](https://chatgpt.com/).  
  ![C&CLogo](assets/images/c&clogo.jpg)
 
@@ -79,7 +84,8 @@ The layout of the website was initially sketched on a piece of paper. A wirefram
  ## Features
  ### Navigation bar
  ![Navigationbar](assets/images/navigationbar.png)
-The navigation bar is located at the top of every page. In the navigation bar, you can find links to the sections Home, Gallery and the Join Us form. On the left - hand side, there is a Coffee & Crochet logo that takes visitors back to the top of the first page. On devices with a width of 768px or less, the menu is changed to a hamburger dropdown menu.
+
+The navigation bar is located at the top of every page. In the navigation bar, you can find links to the sections Home, Gallery and the Join Us form. On the left - hand side, there is a Coffee & Crochet logo that takes visitors back to the top of the home page. On devices with a width of 768px or less, the menu is changed to a hamburger dropdown menu.
 
 ### Footer
 In the footer there are social media icons. By clicking on the icons the visitor is being linked to Coffee & Crochet's Facebook, Twitter, YouTube or Instagram. The links open in a new tab.
@@ -96,10 +102,13 @@ By clicking on the button "Join Us" in the navigation bar, visitors access a for
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) has also frequently been used. Every identified error was corrected prior to submission.
 ![Validator](assets/images/screenshot_2024-11-07_at_19.06.04.png)
 * Lighthouse testing show good results for speed, accessibility, and SEO.
+
 ![Lighthouse results](assets/images/screenshot_2024-11-07_at_19.11.35.png)
  
 ### Responsiveness
 The website has been tested on several devices, mobiles, tablets and laptops. It responds as expected on all tested screen sizes. The same applies to different browsers such as Chrome, Microsoft Edge and Safari. 
+### User stories
+The website has been created with the User Stories in mind. I consider each goal to be achieved. 
 
 ### Manual testing
 Manual testing has been conducted on both internal and external links. The internal links take the visitor to the desired section. The external links open a new tab with the requested website.
@@ -120,12 +129,14 @@ The link to the live website: [Coffee & Crochet](https://emelie-nilsson.github.i
 
 ## Credits
 ### Code
-All code is taken from Code Institute LMS (Learning Management System) and modified to fit the website.
+All code is inspired by different lessons and mondules in Code Institute's LMS (Learning Management System). 
 ### Content
-The font family is from [Google Fonts](https://fonts.google.com/)
+The font family is from [Google Fonts](https://fonts.google.com/).
+
 The icons in the footer and in the benefits section, were taken from [Font Awesome](https://fontawesome.com/).
 ### Media
-The images of the project on different devices are created using a website called [Are you responsive?](https://ui.dev/amiresponsive)
+The images of the project on different devices, are created using a website called [Are you responsive?](https://ui.dev/amiresponsive)
+
 The logo is made by [ChatGPT](https://chatgpt.com/) and the favicon by [Favicon](https://favicon.io/).
 
 The rest of the images are all downloaded from [Freepik](https://www.freepik.com/).
