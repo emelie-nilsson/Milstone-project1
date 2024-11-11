@@ -9,7 +9,7 @@
 * [Design](#design)
 * [Features](#features)
 * [Testing](#testing)
-* [Deployment steps](#deployment)
+* [Deployment](#deployment)
 * [Credits](#credits)
 
 ## Introduction
@@ -122,6 +122,15 @@ The bug was resolved by removing ***Meetup Times*** from the navigation bar.
 All identified bugs were resolved.
 
 ## Deployment
+
+### Version Control
+The website was created using Gitpod, and pushed to GitHub to the remote repository. Througout the project the following git commands were used,
+* **Git add .** *-Adds a change in the working directory to the staging area.*
+* **Git commit -m "message"** *-Commits changes to the local repository.*
+* **Git push** *-Uploads the commited changes to the remote repository in Github.*
+
+
+### Deployment to GitHub Pages
 1. Go to the **Settings** tab of your GitHub repo.
 2. On the left-hand sidebar, in the Code and automation section, select **Pages**.
 3. Make sure:
