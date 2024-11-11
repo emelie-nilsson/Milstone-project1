@@ -73,25 +73,25 @@ The image on top of the home page was selected first. By using [Colorpicker](htt
  All images are downloaded from [Freepik](https://www.freepik.com/). They were all selected to match the content of the website as well as the color theme. All images are downsized to fit the purpose of the website.
 
 
- The logo is created by [ChatGPT](https://chatgpt.com/).  
+ The logo was created by [ChatGPT](https://chatgpt.com/).  
  ![C&CLogo](assets/images/c&clogo.jpg)
 
  A [Favicon](https://favicon.io/) was created based on the letters C and C with the color theme in mind. 
 
  ### Text
- The five reasons to do crochet, are also created by [ChatGPT](https://chatgpt.com/). The rest of the text is written by the author.
+ The five reasons to do crochet, were also created by [ChatGPT](https://chatgpt.com/). The rest of the text was written by the author.
 
  ## Features
  ### Navigation bar
  ![Navigationbar](assets/images/navigationbar.png)
 
-The navigation bar is located at the top of every page. In the navigation bar, you can find links to the sections Home, Gallery and the Join Us form. On the left - hand side, there is a Coffee & Crochet logo that takes visitors back to the top of the home page. On devices with a width of 768px or less, the menu is changed to a hamburger dropdown menu.
+The navigation bar is located at the top of every page. In the navigation bar, you can find links to the sections ***Home, Gallery*** and the ***Join Us*** form. On the left - hand side, there is a Coffee & Crochet logo that takes visitors back to the top of the home page. On devices with a width of 768px or less, the menu is changed to a hamburger dropdown menu.
 
 ### Footer
-In the footer there are social media icons. By clicking on the icons the visitor is being linked to Coffee & Crochet's Facebook, Twitter, YouTube or Instagram. The links open in a new tab.
+In the footer there are social media icons. By clicking on the icons the visitor is being linked to Coffee & Crochet's *Facebook, Twitter, YouTube* or *Instagram*. The links open in a new tab.
 
 ### Form
-By clicking on the button "Join Us" in the navigation bar, visitors access a form. To submit the form, Name, Email, and Phone number need to be filled in. A confirmation page appears when the form has been successfully submitted. This page contains a button that takes the visitor back to the homepage when clicked.
+By clicking on the button ***Join Us*** in the navigation bar, visitors access a form. To submit the form, *Name, Email*, and *Phone* need to be filled in correctly. A confirmation page appears when the form has been successfully submitted. This page contains a button that takes the visitor back to the homepage when clicked.
 
 ## Testing
 ### Validation
@@ -108,10 +108,18 @@ By clicking on the button "Join Us" in the navigation bar, visitors access a for
 ### Responsiveness
 The website has been tested on several devices, mobiles, tablets and laptops. It responds as expected on all tested screen sizes. The same applies to different browsers such as Chrome, Microsoft Edge and Safari. 
 ### User stories
-The website has been created with the User Stories in mind. I consider each goal to be achieved. 
+The website has been created with the [User Stories](#user-experience) in mind. I consider each goal to be achieved. 
 
 ### Manual testing
 Manual testing has been conducted on both internal and external links. The internal links take the visitor to the desired section. The external links open a new tab with the requested website.
+
+### Bugs
+One bug that was discovered during the project concerned the navigation bar. At this point, the navigation bar included a link to the section ***Meetup Times***. The link worked fine while the visitor was on the home page, however, if the visitor clicked the link on any of the other pages, it did not work as expected . 
+
+The bug was resolved by removing ***Meetup Times*** from the navigation bar.
+
+### Unfixed bugs
+All identified bugs were resolved.
 
 ## Deployment
 1. Go to the **Settings** tab of your GitHub repo.
@@ -127,6 +135,13 @@ Manual testing has been conducted on both internal and external links. The inter
 
 The link to the live website: [Coffee & Crochet](https://emelie-nilsson.github.io/Milstone-project1/)
 
+### How to clone the repository
+1. From the list of repositories, click the repository you want to clone. 
+2. Click the green button **Code**.
+3. Choose **HTTPS** followed by **Open with GitHub Desktop**.
+4. Click **Choose** and navigate to a local directory where you want to clone the repository.
+5. Click **Clone**
+
 ## Credits
 ### Code
 All code is inspired by different lessons and mondules in Code Institute's LMS (Learning Management System). 
@@ -134,6 +149,8 @@ All code is inspired by different lessons and mondules in Code Institute's LMS (
 The font family is from [Google Fonts](https://fonts.google.com/).
 
 The icons in the footer and in the benefits section, were taken from [Font Awesome](https://fontawesome.com/).
+
+The instructions under [Deployment](#deployment) were taken from the module *Love running -Essentials Project* and [GitHub Docs](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop).  
 ### Media
 The images of the project on different devices, are created using a website called [Are you responsive?](https://ui.dev/amiresponsive)
 
