@@ -56,7 +56,7 @@ The layout of the website was initially sketched on a piece of paper. A wirefram
 ### Fonts and colour theme
 The font that was chosen was Lora, with Serif as a backup.
 
-![First image](assets/images/52867.jpg)
+![First image](assets/images/52867.sm.jpg)
 
 The image on top of the home page was selected first. By using [Colorpicker](https://imagecolorpicker.com/en) a color palette was created based on the colors in the image.
  
@@ -131,6 +131,8 @@ Each user story was tested as follows:
 
 
 ### Manual testing
+The Join Us form and all links on all the pages have been tested. The results were satisfactory. More details are shown in the table below.
+
 | What's being tested   | Expected outcome |Actual outcome
 | -------- | ------- |-------|
 | **Navigation bar**  |   |
