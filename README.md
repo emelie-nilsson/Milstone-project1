@@ -95,7 +95,11 @@ In the footer there are social media icons. By clicking on the icons the visitor
 By clicking on the button ***Join Us*** in the navigation bar, visitors access a form. To submit the form, *Name, Email*, and *Phone* need to be filled in correctly. A confirmation page appears when the form has been successfully submitted. This page contains a button that takes the visitor back to the homepage when clicked.
 
 ### Future features
-
+Some ideas about the future:
+*  to expand and have meetups in other citys nearby.
+* to add meetups for other type of needlework such as knitting.
+* to share patterns online.
+* to add tutorials to the website
 
 ## Technologies Used
 ### Languages
@@ -222,7 +226,7 @@ The link to the live website: [Coffee & Crochet](https://emelie-nilsson.github.i
 
 ## Credits
 ### Code
-All code is inspired by different lessons and mondules in Code Institute's LMS (Learning Management System). 
+All code is inspired by various lessons and modules in Code Institute's LMS (Learning Management System). 
 ### Content
 The font family is from [Google Fonts](https://fonts.google.com/).
 
