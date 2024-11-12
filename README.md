@@ -131,7 +131,26 @@ Each user story was tested as follows:
 
 
 ### Manual testing
-Manual testing has been conducted on both internal and external links. The internal links take the visitor to the desired section. The external links open a new tab with the requested website.
+| What's being tested   | Expected outcome |Actual outcome
+| -------- | ------- |-------|
+| **Navigation bar**  |   |
+| C&C logo | By clicking the logo the visitor will return to the top of the home page  |Works as expected
+| Home   | By clicking **Home** in the navigation bar, the visitor will return to the top of the home page   |Works as expected
+| Gallery | By clicking on **Gallery** the visitor will get to the gallery page |Works as expected|
+| Join us | By clicking **Join us** the visitors get to av form |Works as expected|
+|   |   |   |
+| **Footer** |     |    |
+| Facebook | By clicking the Facebook icon, Coffee & Crochet's facebook page opens up in a new tab |Works as expected|
+| Twitter | By clicking the Twitter icon, Coffee & Crochet's twitter page opens up in a new tab |Works as expected |
+| YouTube | By clicking the YouTube icon, Coffee & Crochet's YouTube channel opens up in a new tab |Works as expected |
+| Instagram | By clicking the Instagram icon, Coffee & Crochet's instagram opens up in a new tab |Works as expected|
+|      |     |    |
+| **Join Us form** |     |    |
+| Name | The visitor needs to fill in a name to be able to submit the form |Works as expected|
+| Email | The visitor needs to fill in an email that includes an @ to submit the form |Works as expected|
+| Phone number| An number combination needs to be filled in to subit the form |Works as expected|
+| Submit -button | When the button is being pushed, the form is being submitted and a confirmation page appears |Works as expected|
+| Return to homepage -button | When clicking the button, the visitor returns to the home page|Works as expected|
 
 ### Bugs
 One bug that was discovered during the project concerned the navigation bar. At this point, the navigation bar included a link to the section ***Meetup Times***. The link worked fine while the visitor was on the home page, however, if the visitor clicked the link on any of the other pages, it did not work as expected . 
