@@ -8,6 +8,7 @@
 * [User experience](#user-experience)
 * [Design](#design)
 * [Features](#features)
+* [Technologies Used](#technologies-used)
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [Credits](#credits)
@@ -93,6 +94,9 @@ In the footer there are social media icons. By clicking on the icons the visitor
 ### Form
 By clicking on the button ***Join Us*** in the navigation bar, visitors access a form. To submit the form, *Name, Email*, and *Phone* need to be filled in correctly. A confirmation page appears when the form has been successfully submitted. This page contains a button that takes the visitor back to the homepage when clicked.
 
+### Future features
+
+
 ## Technologies Used
 ### Languages
 *  HTML
@@ -107,6 +111,7 @@ By clicking on the button ***Join Us*** in the navigation bar, visitors access a
 * [Favicon.io](https://favicon.io/)
 * [Font Awesome](https://fontawesome.com/)
 * [Freepik](https://www.freepik.com/)
+* [Git](https://git-scm.com/)
 * [GitHub](https://github.com/)
 * [Gitpod](https://www.gitpod.io/)
 * [Google Fonts](https://fonts.google.com/)
