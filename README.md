@@ -13,7 +13,7 @@
 * [Credits](#credits)
 
 ## Introduction
-The Coffee & Crochet website is targeted at individuals living in Springfield who enjoy socializing with others in the area. The aim is to have people attend meetups at local cafés to drink coffee and do crochet. Another goal of the website is to encourage people to crochet by highlighting the benefits of needlework. The website is designed for all individuals in the area, regardless of age, gender , or prior experience with crocheting.
+The Coffee & Crochet website is targeted at individuals living in Springfield who enjoy socializing with others in the area. The aim is to have people attend meetups at local cafés to drink coffee and do crochet. Another goal of the website is to encourage people to crochet by highlighting the benefits of needlework. The website is designed for all individuals in the area, regardless of age, gender, or prior experience with crocheting.
 ## User experience
 ### User story
 
@@ -92,6 +92,25 @@ In the footer there are social media icons. By clicking on the icons the visitor
 
 ### Form
 By clicking on the button ***Join Us*** in the navigation bar, visitors access a form. To submit the form, *Name, Email*, and *Phone* need to be filled in correctly. A confirmation page appears when the form has been successfully submitted. This page contains a button that takes the visitor back to the homepage when clicked.
+
+## Technologies Used
+### Languages
+*  HTML
+*  CSS
+
+### Frameworks & Tools
+* [Am I responsive?](https://ui.dev/amiresponsive) 
+* [Balsamiq](https://balsamiq.com/)
+* [Bootstrap v5.3](https://getbootstrap.com/)
+* [Colorpicker](https://imagecolorpicker.com/)
+* [ChatGPT](https://chatgpt.com/)
+* [Favicon.io](https://favicon.io/)
+* [Font Awesome](https://fontawesome.com/)
+* [Freepik](https://www.freepik.com/)
+* [GitHub](https://github.com/)
+* [Gitpod](https://www.gitpod.io/)
+* [Google Fonts](https://fonts.google.com/)
+
 
 ## Testing
 ### Validation
@@ -191,6 +210,10 @@ The link to the live website: [Coffee & Crochet](https://emelie-nilsson.github.i
 3. Choose **HTTPS** followed by **Open with GitHub Desktop**.
 4. Click **Choose** and navigate to a local directory where you want to clone the repository.
 5. Click **Clone**
+
+### How to fork the repository
+1. From the list of repositories, click the repository you want to fork.
+2. Click on the **Fork** button in upper right hand corner.
 
 ## Credits
 ### Code
