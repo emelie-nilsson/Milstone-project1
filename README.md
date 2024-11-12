@@ -108,7 +108,27 @@ By clicking on the button ***Join Us*** in the navigation bar, visitors access a
 ### Responsiveness
 The website has been tested on several devices, mobiles, tablets and laptops. It responds as expected on all tested screen sizes. The same applies to different browsers such as Chrome, Microsoft Edge and Safari. 
 ### User stories
-The website has been created with the [User Stories](#user-experience) in mind. I consider each goal to be achieved. 
+Each user story was tested as follows:
+
+| User story    | Steps |  |Result|
+| ------------- | ------|----------------- | -----|
+|I want to know what happens at the meetups| In the introduction you can read what happens at the meetups. People are drinking coffee, socialising and doing crochet. Thery are also exchanging patterns, yarn and experiances.|      | Achieved
+| I want to know when and where the meetups take place| At the buttom of the homepage there is a section called Meetup Times. Here the visitor can read when and where the meetups is scheduled.|     | Achieved     |
+|I want to know why I should join this community   | Five benefits with crocheting are written in the section *Why crochet?* This is five reasons why the visitor should join the community. |    | Achieved
+| I want to know if I need to be a professional crocheter to join. | In the introduction it clearly states that everyone is welcome regardless of prior experiance of crocheting.|  | Achieved|
+| I want to easily navigate on the website | On top of each page there is a navigation bar. The visitor is linked to the desired section by clicking on it in the navigation bar.|    |Achieved|
+| I want to easily check what time the meetup is scheduled for a specific day| In the section *Meetup Times*, the visitor find time and location for the meetups.|  | Achieved|
+| I want to see images from previous meetups. | There is a Gallery page filled with images from prior meetups.|   | Achieved|
+| I want a quick overview to ensure that no changes have been made.| Time and location are easily to find on the buttom of the home page.|    | Achieved|
+
+|The website owner's goal | Steps  | Result |
+| -------- | ------- |---------|
+| I want to build a community for the people in the area who crochet.  | In the introduction it says that everyone in the area, is welcome.  |  Achieved
+| I want to encourage people to crochet. | The stated benefits to do crochet, and the images is the Gallery are meant to inspire people to crochet. | Achieved
+| I want to support the local Cafés.| By having the meetups at the local cafés, it contributes to their business.| Achieved
+| I want to spread knowledge about crocheting.| By sharing several benefits with needle work, knowledge is being spread.| Achieved|
+| I want to make use of patterns and yarn that aren't being used.| At the meetups people are encouraged to exchange patterns and yarn.|Achieved|
+
 
 ### Manual testing
 Manual testing has been conducted on both internal and external links. The internal links take the visitor to the desired section. The external links open a new tab with the requested website.
